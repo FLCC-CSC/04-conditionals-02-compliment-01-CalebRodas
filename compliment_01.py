@@ -14,7 +14,7 @@
 
 
 def main():
-    choice = input("Would you like a compliment? ").strip().lower()
+    choice = input("Would you like a compliment? ")
 
     if choice == "yes":
         print("You have wonderful eyes.")
